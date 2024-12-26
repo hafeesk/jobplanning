@@ -1,0 +1,235 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "EST-.####",
+ "creation": "2024-12-21 08:43:59.641038",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "customer",
+  "column_break_npuz",
+  "date",
+  "section_break_warx",
+  "boq_material",
+  "section_break_xvdj",
+  "estimated_material_cost",
+  "material_cost_budget",
+  "material_cost_po",
+  "column_break_nulv",
+  "estimated_profit",
+  "budgeted_profit",
+  "material_difference",
+  "section_break_ivwn",
+  "boq_service",
+  "section_break_gpbi",
+  "estimated_service_cost",
+  "service_cost_budget",
+  "service_cost_po",
+  "column_break_ufbj",
+  "service_estimated_profit",
+  "service_budget_profir",
+  "difference",
+  "section_break_yekl",
+  "total_po_value",
+  "total_estimated_cost",
+  "total_budgeted_cost",
+  "column_break_qjxq",
+  "total_estimated_profit",
+  "total_budgeted_profit"
+ ],
+ "fields": [
+  {
+   "fieldname": "customer",
+   "fieldtype": "Link",
+   "label": "Customer",
+   "options": "Customer"
+  },
+  {
+   "fieldname": "column_break_npuz",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "section_break_warx",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "boq_material",
+   "fieldtype": "Table",
+   "label": "BOQ Material",
+   "options": "Bill Of Quantity"
+  },
+  {
+   "fieldname": "section_break_xvdj",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "estimated_material_cost",
+   "fieldtype": "Currency",
+   "label": "Estimated Material Cost"
+  },
+  {
+   "fieldname": "material_cost_budget",
+   "fieldtype": "Currency",
+   "label": "Material Cost Budget"
+  },
+  {
+   "fieldname": "material_cost_po",
+   "fieldtype": "Currency",
+   "label": "Material Cost PO"
+  },
+  {
+   "fieldname": "column_break_nulv",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "estimated_profit",
+   "fieldtype": "Currency",
+   "label": "Estimated Profit"
+  },
+  {
+   "fieldname": "budgeted_profit",
+   "fieldtype": "Currency",
+   "label": "Budgeted Profit"
+  },
+  {
+   "fieldname": "material_difference",
+   "fieldtype": "Currency",
+   "label": "Material Difference"
+  },
+  {
+   "fieldname": "section_break_ivwn",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "boq_service",
+   "fieldtype": "Table",
+   "label": "BOQ Service",
+   "options": "BOQ Service"
+  },
+  {
+   "fieldname": "section_break_gpbi",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "estimated_service_cost",
+   "fieldtype": "Currency",
+   "label": "Estimated Service Cost"
+  },
+  {
+   "fieldname": "service_cost_budget",
+   "fieldtype": "Currency",
+   "label": "Service Cost Budget"
+  },
+  {
+   "fieldname": "service_cost_po",
+   "fieldtype": "Currency",
+   "label": "Service Cost PO"
+  },
+  {
+   "fieldname": "column_break_ufbj",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "service_estimated_profit",
+   "fieldtype": "Currency",
+   "label": "Service Estimated Profit"
+  },
+  {
+   "fieldname": "service_budget_profir",
+   "fieldtype": "Currency",
+   "label": "Service Budget Profir"
+  },
+  {
+   "fieldname": "difference",
+   "fieldtype": "Currency",
+   "label": "Difference"
+  },
+  {
+   "fieldname": "section_break_yekl",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "total_po_value",
+   "fieldtype": "Currency",
+   "label": "Total PO Value"
+  },
+  {
+   "fieldname": "total_estimated_cost",
+   "fieldtype": "Currency",
+   "label": "Total Estimated Cost"
+  },
+  {
+   "fieldname": "total_budgeted_cost",
+   "fieldtype": "Currency",
+   "label": "Total Budgeted Cost"
+  },
+  {
+   "fieldname": "column_break_qjxq",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "total_estimated_profit",
+   "fieldtype": "Currency",
+   "label": "Total Estimated Profit"
+  },
+  {
+   "fieldname": "total_budgeted_profit",
+   "fieldtype": "Currency",
+   "label": "Total Budgeted Profit"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-12-21 09:02:26.935743",
+ "modified_by": "Administrator",
+ "module": "Planning for Job Card",
+ "name": "Estimation",
+ "naming_rule": "Expression (old style)",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Accounts Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Projects Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}
